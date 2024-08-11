@@ -1,11 +1,9 @@
-Here's an updated `README.md` file with information about the Flask web application and the code you provided:
 
-```markdown
-# Curve Regularization Tool
+# Adobe GenSolve Algorithm 1
 
 ## Overview
 
-The Curve Regularization Tool is a web application designed to process and visualize 2D curve data. Users can upload CSV files containing curve data, which are analyzed to identify and fit shapes such as lines, circles, ellipses, and rectangles. The results are visualized as SVG images, which can also be downloaded as PNG files.
+The tool is a web application designed to process and visualize 2D curve data. Users can upload CSV files containing curve data, which are analyzed to identify and fit shapes such as lines, circles, ellipses, and rectangles. The results are visualized as SVG images, which can also be downloaded as PNG files.
 
 ## Features
 
