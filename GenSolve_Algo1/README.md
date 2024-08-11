@@ -57,18 +57,6 @@ pip install numpy svgwrite cairosvg scikit-learn scipy flask
 
 4. **View Results**: After processing, you will be redirected to a page where you can view and download the generated SVG and PNG files.
 
-### CSV File Format
-
-The CSV file should be formatted as follows:
-```
-path_id,point_id,x,y
-1,1,0,0
-1,2,1,1
-...
-```
-- `path_id` identifies different curves.
-- `point_id` represents the order of points in the curve.
-- `x` and `y` are the coordinates of the points.
 
 ## Code Explanation
 
@@ -98,10 +86,4 @@ path_id,point_id,x,y
 - **File Not Displaying**: Verify file paths and filenames are correct. Check the server logs for errors.
 - **Dependency Issues**: Ensure all required dependencies are installed with the correct versions. Consult package documentation if needed.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-```
-
-Feel free to modify the content or add any additional information based on your specific needs and preferences.
