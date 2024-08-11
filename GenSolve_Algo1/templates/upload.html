@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="upload-section">
+    <h2>Upload CSV File</h2>
+    <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required>
+        <button type="submit">Upload and Process</button>
+    </form>
+    {% if image_url %}
+    <h3>Processed Image:</h3>
+    <img src="{{ url_for('display_image', filename=image_url) }}" alt="Processed SVG">
+    {% endif %}
+</section>
+{% endblock %}

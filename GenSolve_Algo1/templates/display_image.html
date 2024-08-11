@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}SVG Output{% endblock %}
+
+{% block content %}
+<section class="output">
+    <h2>Generated SVG</h2>
+    <img src="{{ url_for('display_image', filename=filename) }}" alt="Generated SVG">
+    <a href="{{ url_for('download_image', filename=filename) }}" class="button">Download Image</a>
+</section>
+{% endblock %}

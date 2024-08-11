@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="info-section">
+    <h2>About the  Algorithm</h2>
+    <p>Welcome to our shape identification and regularization application! This tool utilizes advanced algorithms to analyze and visualize geometric shapes from input data. Below is an overview of what the system does:</p>
+    
+    <div class="overview">
+        <h3>1. Shape Identification</h3>
+        <p>The application is designed to identify and regularize several types of geometric shapes:</p>
+        <ul>
+            <li><strong>Line:</strong> Detected by fitting a linear regression model to the provided data points. The algorithm evaluates the goodness of fit to determine if the shape is a line.</li>
+            <li><strong>Circle:</strong> Identified by fitting a circle equation and checking the uniformity of distances from the center. The algorithm calculates the circle's center and radius.</li>
+            <li><strong>Doodle:</strong> The system can recognize and regularize freehand drawings into standard geometric shapes like circles or rectangles, ensuring the doodle conforms to the intended shape.</li>
+            <li><strong>Rectangle:</strong> Determined by verifying distances between points and checking the equality of diagonals to ensure a rectangular shape.</li>
+        </ul>
+        
+        <h3>2. SVG Generation</h3>
+        <p>Once the shapes are identified, they are rendered into SVG format for high-quality vector visualization. The SVG files are then converted into PNG format for easy viewing and sharing.</p>
+        
+        <h3>3. How It Works</h3>
+        <p>The process involves reading input data from a CSV file, identifying shapes using the outlined algorithms, and then generating and saving visual representations of these shapes.</p>
+    </div>
+
+    <p>Below are the types of shapes our algorithm can process:</p>
+    <div class="shape-links">
+        <a href="https://static.thenounproject.com/png/2264019-200.png" target="_blank">
+            <img src="https://static.thenounproject.com/png/2264019-200.png" alt="Line">
+            <p>Line</p>
+        </a>
+        <a href="https://img.freepik.com/free-vector/stroke-round-geometric-shape-vector_53876-175080.jpg" target="_blank">
+            <img src="https://img.freepik.com/free-vector/stroke-round-geometric-shape-vector_53876-175080.jpg" alt="Circle">
+            <p>Circle</p>
+        </a>
+        
+        <a href="https://images.vexels.com/content/139257/preview/square-rectangle-shape-9d4d0b.png" target="_blank">
+            <img src="https://images.vexels.com/content/139257/preview/square-rectangle-shape-9d4d0b.png" alt="Rectangle">
+            <p>Rectangle</p>
+        </a>
+        <a href="https://i.pinimg.com/736x/75/e1/87/75e187af66660cf1fdc1c1962c9d718c.jpg" target="_blank">
+            <img src="static\css\images\isolated.svg" alt="Ellipse">
+            <p>Doodle</p>
+        </a>
+    </div>
+</section>
+{% endblock %}
