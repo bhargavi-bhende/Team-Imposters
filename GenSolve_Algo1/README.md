@@ -5,6 +5,10 @@
 
 The tool is a web application designed to process and visualize 2D curve data. Users can upload CSV files containing curve data, which are analyzed to identify and fit shapes such as lines, circles, ellipses, and rectangles. The results are visualized as SVG images, which can also be downloaded as PNG files.
 
+## Demo
+
+Check out the live demo of the Curvetopia project [here](https://drive.google.com/file/d/1si9nFNj1uRsfdspSrHlJfgV63kUYm5Jr/view?usp=drive_link).
+
 ## Features
 
 - **Upload CSV Files**: Upload CSV files containing 2D curve data.
