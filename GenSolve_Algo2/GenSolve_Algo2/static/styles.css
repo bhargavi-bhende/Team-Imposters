@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #007BFF;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#description h2, #upload-form h3 {
+    font-size: 1.8em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+#description p, #upload-form p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#upload-form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#upload-form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+#upload-form input[type="file"] {
+    display: block;
+    margin: 0 auto 15px auto;
+    font-size: 1em;
+}
+
+#upload-form button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #777;
+}

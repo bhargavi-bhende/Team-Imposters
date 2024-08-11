@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Curvetopia - Precision and Elegance in 2D Curves</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Curvetopia</h1>
+            <p>Where Curves Meet Precision and Elegance</p>
+        </header>
+
+        <section id="description">
+            <h2>Welcome to Curvetopia</h2>
+            <p>
+                Curvetopia is an innovative solution designed to bring order, beauty, and precision to the world of 2D curves. Whether you're working with simple doodles or complex geometric shapes, our mission is to identify, regularize, and beautify curves in 2D Euclidean space, providing you with a seamless experience in curve analysis and transformation.
+            </p>
+
+            <h3>The Problem We're Solving</h3>
+        <p>
+            In 2D space, curves are everywhere—from the simple circles in a child’s drawing to the intricate patterns in architectural designs. However, working with these curves often presents challenges, especially when they are incomplete, irregular, or lack symmetry. Traditional tools struggle with identifying and regularizing these curves, leading to inaccuracies and inefficiencies.
+        </p>
+
+        <h3>How Curvetopia Solves It</h3>
+        <p>
+            At Curvetopia, we tackle these challenges head-on with a powerful algorithm that processes curves in three key stages:
+        </p>
+
+        <h4>1. Curve Regularization</h4>
+        <p>
+            <strong>Identification</strong>: The algorithm starts by identifying basic shapes within a given set of curves. These include straight lines, circles, ellipses, rectangles, polygons, and star shapes.<br>
+            <strong>Regularization</strong>: Once identified, the algorithm regularizes these shapes, ensuring that lines are straightened, circles are perfectly round, and polygons are symmetrical. This regularization process refines the input shapes, making them more precise and aesthetically pleasing.
+        </p>
+
+        <h4>2. Symmetry Detection</h4>
+        <p>
+            Our algorithm then analyzes the regularized curves for symmetry. Whether it’s reflection symmetry or rotational symmetry, the algorithm identifies symmetrical patterns and enhances them. This is crucial for ensuring that the curves maintain their natural balance and visual harmony.
+        </p>
+
+        <h4>3. Curve Completion</h4>
+        <p>
+            In cases where curves are incomplete due to occlusion or other factors, our algorithm steps in to complete them naturally. It detects gaps or missing sections and seamlessly fills them in, creating a complete and continuous curve. The algorithm uses principles of smoothness, regularity, and symmetry to guide the completion process, ensuring that the finished curve looks natural and consistent with the surrounding shapes.
+        </p>
+
+        <h3>How It Works</h3>
+        <p>
+            <strong>Input</strong>: You start by providing a set of polylines or a CSV file containing a sequence of points that define the curves.<br>
+            <strong>Processing</strong>: The algorithm processes these points, identifying regular shapes, detecting symmetry, and completing any incomplete curves.<br>
+            <strong>Output</strong>: The processed curves are then rendered in SVG format, which can be viewed and manipulated in any modern web browser. The final output consists of a set of cubic Bézier curves that represent the original shapes with enhanced precision and beauty.
+        </p>
+
+        <h3>Try It Yourself</h3>
+        <p>
+            Upload your own set of curves and let Curvetopia transform them. See the difference precision makes, and experience the elegance of perfectly regularized, symmetrical, and complete curves.
+        </p>
+
+            <h3>Try It Yourself</h3>
+            <p>
+                Upload your own set of curves and let Curvetopia transform them. See the difference precision makes, and experience the elegance of perfectly regularized, symmetrical, and complete curves.
+            </p>
+        </section>
+
+        <section id="upload-form">
+            <h3>Upload Your CSV File</h3>
+            <form method="post" enctype="multipart/form-data">
+                <label for="file">Upload your CSV file:</label>
+                <input type="file" name="file" id="file" accept=".csv" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Curvetopia. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
