@@ -2,6 +2,10 @@
 
 Welcome to **Curvetopia** – a project dedicated to identifying, regularizing, and beautifying 2D curves. This advanced tool uses sophisticated algorithms to process and enhance various types of curves, making it ideal for projects involving line art and shape analysis.
 
+## Demo
+
+Check out the live demo of the Curvetopia project [here](https://drive.google.com/file/d/1a1yTCgKc4SZRE-7FjirksIrTo5fDqv0A/view?usp=sharing).
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
