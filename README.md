@@ -46,7 +46,7 @@ Our team has proposed two solutions/algorithm to the problem each of which has b
 
 ## Demo Videos
 
-- [Solution 1 Demo Video](https://link-to-solution-1-demo)
+- [Solution 1 Demo Video](https://drive.google.com/file/d/1si9nFNj1uRsfdspSrHlJfgV63kUYm5Jr/view?usp=drive_link)
 - [Solution 2 Demo Video](https://drive.google.com/file/d/1a1yTCgKc4SZRE-7FjirksIrTo5fDqv0A/view?usp=sharing)
 
 ## Installation
