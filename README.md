@@ -53,7 +53,7 @@ Our team has proposed two solutions/algorithm to the problem each of which has b
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/bhargavi-bhende/Team-Imposters.git
 
 2. Navigate to the project directory:
   ```bash
